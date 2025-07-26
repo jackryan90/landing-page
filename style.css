@@ -22,11 +22,6 @@ button {
   border-radius: 8px;
 }
 
-header {
-  background: #1F2937;
-  padding: 28px 210px 140px;
-}
-
 ul {
   list-style: none;
 }
@@ -36,10 +31,25 @@ a {
   color: inherit;
 }
 
+header {
+  background: #1F2937;
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 120px;
+}
+
+.logo-and-links,
+.hero {
+  width: 860px;
+  flex: none;
+}
+
 .logo-and-links {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
 }
 
 .header-links,
@@ -64,7 +74,8 @@ a {
 .hero {
   display: flex;
   gap: 32px;
-  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
 }
 
 .hero > * {

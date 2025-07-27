@@ -131,13 +131,13 @@ figcaption {
   color: gray;
 }
 
-.testimonial {
+.quotations {
   background: #E5E7EB;
   padding: 120px 0px;
 }
 
 .quote-container {
-  width: 840px;
+  width: 740px;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -157,3 +157,45 @@ blockquote {
   align-self: flex-end;
 }
 
+.call-to-action {
+  padding: 100px 0px;
+}
+
+.action-container {
+  width: 900px;
+  height: 140px;
+  padding: 40px 80px;
+  margin: 0px auto;
+  background: #3882F6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-main-text {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.action-subtext {
+  color: #E5E7EB;
+  font-weight: lighter;
+}
+
+.action-button {
+  border: 2px solid white;
+}
+
+footer {
+  height: 100px;
+  background: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
